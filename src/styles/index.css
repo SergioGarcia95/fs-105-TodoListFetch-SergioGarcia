@@ -1,11 +1,56 @@
-/* 
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+body {
+    background-color: rgb(194, 194, 194);
+}
 
-*/
+
+
+.list{
+    text-align: center;
+    background-color: rgb(228, 228, 228);
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+.input-styles {
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    width: 250px;
+}
+
+
+
+.buttons-top {
+    margin: 2%;
+    
+}
+
+.btnAdd{
+    margin: 2px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    background-color: grey;
+    color: white;
+}
+
+.btnDelete{
+    margin: 2px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    background-color: grey;
+    color: white;
+    
+}
+
+p{
+    border-color: red;
+}
+
+.button-bot{
+    border: none;
+    background-color: rgb(228, 228, 228);
+}
